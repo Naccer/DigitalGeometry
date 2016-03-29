@@ -228,26 +228,7 @@ void ObjectDiscretization::discretizationDeltaCalculus()
 
 
 }
-/*
-double ObjectDiscretization::computePerimeter(Curve borderInterPixel)
-{
 
-	double perimeter = 0;
-
-    typedef Curve::ConstIterator ConstIterator;
-    ConstIterator iterator = borderInterPixel.begin();
-    while (iterator != borderInterPixel.end())
-    {
-		perimeter += 1;
-		iterator += 1;
-    }
-
-    perimeter = perimeter*h;
-    std::cout << "	Perimeter: " << perimeter << "\n\n";
-    return perimeter;
-
-}
-*/
 double ObjectDiscretization::computeArea(Z2i::DigitalSet shapeSet)
 {
 
