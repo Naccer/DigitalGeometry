@@ -41,9 +41,7 @@ class ObjectDiscretization
         virtual ~ObjectDiscretization();
         void discretizationDeltaCalculus();
         Z2i::DigitalSet discretizeShape(EuclideanDisks shape, char* nameImage, Color color);
-
         double interPixelBorder(Z2i::DigitalSet shapeSet,  char* nameImage, Color color);
-        double computePerimeter(Curve borderInterPixel);
         double computeArea(Z2i::DigitalSet shapeSet);
 
 
